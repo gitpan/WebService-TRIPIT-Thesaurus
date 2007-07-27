@@ -16,15 +16,15 @@ our $API_URI = "http://labs.tripit.jp/api/getrelated";
 
 =head1 NAME
 
-WebService::TRIPIT::Thesaurus - The fantastic new WebService::TRIPIT::Thesaurus!
+WebService::TRIPIT::Thesaurus - Perl wrapper for Japanese thesaurus search on labs.tripit.jp.
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -100,6 +100,18 @@ sub dispatcher {
         }
     };
 }
+
+=head1 SEE ALSO
+
+=over 4
+
+=item http://labs.tripit.jp/webapi/
+
+=item L<WWW::REST>
+
+=item L<XML::LibXML>
+
+=back
 
 =head1 AUTHOR
 
